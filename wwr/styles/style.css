@@ -1,16 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=RocknRoll+One&display=swap');
+ 
 
-<body>
-    <div max-width: 1600px, margin: 0 auto; id="content">
-        <header>
-    . . .
-
-        </footer>
-    </div>
-</body>
-
-
+#hero-msg {
+    font-family: "RockNRoll One", "Papyrus", "Arial"
+}
 #hero-msg h1 {
-    text-align: center;
+    text-align: center
 }
 #hero-msg h4 {
     text-align: center;
@@ -20,6 +15,8 @@
 }
 .home-title {
     text-align: center;
+    font-size: 2em;
+    margin-top: 10px;
 }
 main section {
     text-align: center;
@@ -29,7 +26,11 @@ main section {
 }
 
 body {
-    background-color: #B4DDDD
+    background-color: #B4DDDD;
+    font-family: "Open Sans", "Arial", "RockNRoll One";
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #B4DDDD;
@@ -44,25 +45,39 @@ nav a:hover {
     background-color: #2E5266;
     color: #B4DDDD;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 #background {
     background-color: #F6AF65;
 }
 .msg {
     background-color: #2E5266;
+    line-height: 1.5em;
+    padding: 35px;
     
 }
 footer {
     background-color: #B4DDDD;
     color: #1F363D;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 nav a {
     color: #2E5266;
     text-decoration: none;
     text-align: center;
+    padding: 35px;
 }
 .home-title {
     color:#1F363D;
+    margin-top: 10px;
+}
+h2 {
+    margin: 0;
+    
 }
 h4 {
     color:#1F363D;
@@ -75,6 +90,8 @@ h4 {
 }
 .msg p {
     color: #79F6DF;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer a {
     color:#F6AF65;
@@ -84,12 +101,15 @@ footer a:hover {
     color:#1F363D
 }
 
-
+#logo_link {
+    padding-top: 5px;
+}
 .logo {
      width: 80px;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img { 
@@ -100,4 +120,16 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
+}
+footer .social img {
+    padding-top: 15 px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin-top: 200px;
+}
+.card-img {
+    border: 10px solid #F6AF65;
+}
+main section img {
+    box-sizing: border-box;
 }
