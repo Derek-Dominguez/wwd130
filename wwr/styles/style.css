@@ -198,25 +198,102 @@ main section img {
     grid-row: 2/3;
 }
 
+
 /* Next Section is Blog Page */
 
 .blog-grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: row;
 }
 .blog-logo {
     border: 10px solid #F6AF65;
     transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364
+    box-shadow: 5px 5px 10px #6f7364;
+    margin-right: 10px;
+    margin-top: 100px;
+    
 }
 .river-canyon {
     border: 10px solid #F6AF65;
     transition: transform .5s;
-    box-shadow: 5px 5px 10px #6F7364
-}
-.ram {
+    box-shadow: 5px 5px 10px #6F7364;
+    margin-top: 100px;
+    max-width: 400px;
+    max-height: 400px;
+    margin-right: 10px;
     
 }
+.ram {
+    border: 10px solid #F6AF65;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6F7364;
+    margin-top: 100px;
+    margin-right: 10px;
+    max-width: 400px;
+    max-height: 400px;
+    
+    
+    
+    
+
+}
+.rafting-team {
+    border: 10px solid #F6AF65;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6F7364;
+    margin-right:10px;
+    margin-top: 100px;
+    max-width: 400px;
+    max-height: 400px;
+    
+}
+.river-canyon:hover {
+    opacity: .6;
+    transform: scale(1.1);
+   
+}
+.ram:hover {
+    opacity: .6;
+    transform: scale(1.1);
+    
+}
+.rafting-team:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+.blog-banner {
+    width: 100%;
+    grid-column: 1/11;
+    grid-row: 10;
+    margin-top: 50px;
+}
+
+.blog-intro {
+    grid-column: 1/10;
+    grid-row: 1/2;
+    
+}
+.extended-seasons {
+    grid-column: 1/10;
+    grid-row: 3/4;
+}
+.migration-season {
+    grid-column: 1/10;
+    grid-row:5/6;
+}
+.booking {
+    grid-column: 1/10;
+    grid-row: 7/8;
+}
+
+blogcontent{
+    font-size: 18px;
+    text-align: left;
+
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
