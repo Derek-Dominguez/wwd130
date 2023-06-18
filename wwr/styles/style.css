@@ -265,8 +265,8 @@ main section img {
 
 .blog-banner {
     width: 100%;
-    grid-column: 1/11;
-    grid-row: 10;
+    grid-column: 1/10;
+    grid-row: 9/10;
     margin-top: 50px;
 }
 
