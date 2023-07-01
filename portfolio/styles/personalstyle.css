@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Open+Sans&family=Prompt&family=Source+Serif+Pro:wght@200;400&display=swap');
+
+#content{
+    max-width: 1600px; 
+    margin: 0 auto;
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 175px 175px 200px 1fr 75px;
+
+}
+
+#pagehead {
+    padding-top: 50px;
+    grid-column: 1/6;
+    grid-row: 1/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 250px;
+    justify-content: space-evenly;
+}
+
+#logo  {
+    width: 400px;
+    height: 270px;
+    padding: 5px;
+    border:5px solid#7C0B84;
+    grid-column: 2/3;
+    
+}
+#Web_Development {
+    width: 400px;  
+    height: 270px;
+    padding: 5px;
+    border:5px solid #7C0B84;
+    grid-column: 4/5;
+} 
+
+body {
+    background-color: #FFFFFF;
+    font-family: "ExtraLight 200"," Open Sans Regular 400", "Anonymous Pro Regular 400";
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+#Showcase-msg {
+    text-align: center;
+    font-size: 18px;
+    font-family: "ExtraLight 200", " Open Sans Regular 400", "Anonymous Pro Regular 400";
+    background-color: #C7C4BD;
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    grid-column:1/6;
+    grid-row:3/4;
+}
+h1 {
+    font-size: 20px;
+    font-family: "ExtraLight 200", " Open Sans Regular 400", "Anonymous Pro Regular 400";
+}
+#purpose {
+    text-align: center;
+    font-size: 20px;
+    font-family: "ExtraLight 200", " Open Sans Regular 400", "Anonymous Pro Regular 400";
+    background-color: #C7C4BD;
+    color: black;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    grid-column: 1/3;
+    grid-row: 4/5;
+}
+#wireframe-example {
+    grid-column: 3/6;
+    grid-row: 4/5;
+    padding: 15px 30px;
+}
+
+header {
+    background-color: #7C0B84;
+    display: grid;
+    grid-template-columns: 150px auto;
+    height: 100px;
+    padding:20px;
+    align-items: center;
+}
+nav { 
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-align: center;
+    font-size: 24px;
+    color:#FFFFFF;
+    font-weight: bold;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #C7C4BD;
+    color:  #DEB841;
+}
+.logolink {
+    width: 100px;
+}
+
+footer {
+    padding: 20px;
+    background-color: #7C0B84;
+    text-align: center;
+}
+
+#contact-info {
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
