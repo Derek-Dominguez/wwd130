@@ -113,9 +113,13 @@ nav a:hover {
 
 footer {
     padding: 20px;
-    background-color: #7C0B84;
-    text-align: center;
+    display:flex;
+    background-color: #C7C4BD;
+    justify-content: space-evenly;
+    
 }
+
+
 
 #contact-info {
     margin-top: 20px;
@@ -130,3 +134,46 @@ h4 {
     font-weight: 400;
     margin: 0;
 }
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #DEB841;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    justify-self: left;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFFFFF;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px #C7C4BD;
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: #7C0B84;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #C7C4BD;}
