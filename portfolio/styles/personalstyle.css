@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Open+Sans&family=Prompt&family=Source+Serif+Pro:wght@200;400&display=swap');
 
+
+/*"Source Serif Pro", "Prompt"; "ExtraLight 200", "Open Sans Regular 400", "Anonymous Pro Regular 400"*/
 #content{
-    max-width: 1600px; 
+    max-width: 2000px; 
     margin: 0 auto;
 }
 .home-grid {
@@ -39,8 +41,6 @@
 
 body {
     background-color: #FFFFFF;
-    font-family: "ExtraLight 200"," Open Sans Regular 400", "Anonymous Pro Regular 400";
-    font-size: 16px;
     margin: 0;
     padding: 0;
 }
@@ -48,7 +48,6 @@ body {
 #Showcase-msg {
     text-align: center;
     font-size: 18px;
-    font-family: "ExtraLight 200", " Open Sans Regular 400", "Anonymous Pro Regular 400";
     background-color: #C7C4BD;
     color: black;
     text-decoration: none;
@@ -60,12 +59,12 @@ body {
 }
 h1 {
     font-size: 20px;
-    font-family: "ExtraLight 200", " Open Sans Regular 400", "Anonymous Pro Regular 400";
+    font-family: "Source Serif Pro", "ExtraLight 200"
+    
 }
 #purpose {
     text-align: center;
     font-size: 20px;
-    font-family: "ExtraLight 200", " Open Sans Regular 400", "Anonymous Pro Regular 400";
     background-color: #C7C4BD;
     color: black;
     text-decoration: none;
@@ -88,6 +87,7 @@ header {
     height: 100px;
     padding:20px;
     align-items: center;
+    font-family: "Prompt", "Open Sans Regular 400 ";
 }
 nav { 
     display: flex;
@@ -109,14 +109,17 @@ nav a:hover {
 }
 .logolink {
     width: 100px;
+    padding-bottom: 50px;
 }
 
 footer {
     padding: 20px;
-    display:flex;
+    display: flex;
     background-color: #C7C4BD;
-    justify-content: space-evenly;
-    
+    justify-content: space-between;
+    font-family: "Prompt", "Open Sans Regular 400 ";
+    margin:auto;
+    width: 100%
 }
 
 
@@ -125,23 +128,23 @@ footer {
     margin-top: 20px;
 }
 
-h1 {
-    font-size: 20px;
-}
+
 
 h4 {
     font-size: 16px;
     font-weight: 400;
     margin: 0;
+    font-family: "Prompt", "Open Sans Regular 400 ";
 }
 
 
-/* Dropdown Button */
+/* Dropdown Button located in the footer */
 .dropbtn {
     background-color: #DEB841;
     color: black;
     padding: 16px;
     font-size: 16px;
+    font-family: "Prompt", "Open Sans Regular 400 ";
     border: none;
   }
   
@@ -154,10 +157,10 @@ h4 {
   /* Dropdown Content (Hidden by Default) */
   .dropdown-content {
     display: none;
-    position: absolute;
+    position:inherit;
     background-color: #FFFFFF;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px #C7C4BD;
+    box-shadow: 0px 8px 16px 0px #7C0B84;
     z-index: 1;
   }
   
@@ -176,4 +179,85 @@ h4 {
   .dropdown:hover .dropdown-content {display: block;}
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {background-color: #C7C4BD;}
+  .dropdown:hover .dropbtn {background-color: #7C0B84;}
+
+/* //////////////CSS specifically for page 2 - Services */
+.services-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+
+}
+
+#Design-box {
+    padding-left: 100px;
+    padding-top: 10px;
+    grid-column: 1/5;
+    grid-row: 1/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    
+    
+}
+#design {
+    grid-column: 1/3;
+    grid-row: 1/3;
+    width: 100%;
+    padding: 30px 20px;
+    margin: 20px;
+  }
+#question {
+    grid-column: 5/6;
+    grid-row: 1/2;
+    width: 500px;
+    padding-left: 30px;
+    
+}
+h2 
+{
+    font-size: 16px;
+    font-family: "Source Serif Pro", "ExtraLight 200" ;
+}
+.clientmsg {
+    text-align: left;
+    font-size: 16px;
+    font-family: "Source Serif Pro", "ExtraLight 200";
+    background-color: #C7C4BD;
+    color: black;
+    text-decoration: none;
+    grid-column: 1/4;
+    grid-row-start: 3;
+    border-radius: 10px;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid #DEB841
+}
+.collabmsg {
+    text-align: left;
+    font-size: 16px;
+    font-family: "Source Serif Pro", "ExtraLight 200";
+    background-color: #C7C4BD;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
+    grid-column: 1/4;
+    grid-row: 4/5;
+    width: 100%;
+    border: 2px solid #DEB841
+}
+#Collab-box {
+    grid-column: 4/6;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    padding: 30px;
+    
+    
+
+
+
+    
+}
