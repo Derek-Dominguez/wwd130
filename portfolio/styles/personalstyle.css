@@ -3,7 +3,7 @@
 
 /*"Source Serif Pro", "Prompt"; "ExtraLight 200", "Open Sans Regular 400", "Anonymous Pro Regular 400"*/
 #content{
-    max-width: 2000px; 
+    max-width: 1600px; 
     margin: 0 auto;
 }
 .home-grid {
@@ -56,6 +56,7 @@ body {
     border-radius: 5px;
     grid-column:1/6;
     grid-row:3/4;
+    width: 100%
 }
 h1 {
     font-size: 20px;
@@ -85,6 +86,7 @@ header {
     display: grid;
     grid-template-columns: 150px auto;
     height: 100px;
+    width:100%;
     padding:20px;
     align-items: center;
     font-family: "Prompt", "Open Sans Regular 400 ";
@@ -116,7 +118,7 @@ footer {
     padding: 20px;
     display: flex;
     background-color: #C7C4BD;
-    justify-content: space-between;
+    justify-content: space-evenly;
     font-family: "Prompt", "Open Sans Regular 400 ";
     margin:auto;
     width: 100%
