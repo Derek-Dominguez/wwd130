@@ -59,7 +59,7 @@ body {
     width: 100%
 }
 h1 {
-    font-size: 20px;
+    font-size: 18px;
     font-family: "Source Serif Pro", "ExtraLight 200"
     
 }
@@ -121,7 +121,7 @@ footer {
     justify-content: space-evenly;
     font-family: "Prompt", "Open Sans Regular 400 ";
     margin:auto;
-    width: 100%
+    width: 100%;
 }
 
 
@@ -256,10 +256,60 @@ h2
     grid-row-start: 3;
     grid-row-end: 5;
     padding: 30px;
-    
-    
+}
+
+/**************** PAGE 3 */ 
 
 
+.D-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 70px 400px 300px 1fr 100px;
 
+}
+#derek-box {
+    grid-column: 4/5;
+    grid-row: 1/4;
+    width: 100%;
+    padding: 40px;
     
+}
+h3 {
+    font-size: 16px;
+    font-family: "Source Serif Pro", "ExtraLight 200" ;
+}
+.my-background {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    border: 2px solid #DEB841;
+    background-color: #C7C4BD;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
+
+}
+
+#senior-box {
+    width: 60%;
+    grid-column: 1/2;
+    grid-row: 3/5;
+    margin:auto;
+    padding: 80px;
+    border: 5px solid #7C0B84;
+    
+}
+
+.Education {
+    grid-column: 3/5;
+    grid-row: 3/5;
+    border: 2px solid #DEB841;
+    background-color: #C7C4BD;
+    color: black;
+    text-align: left;
+    text-decoration: none;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
 }
